@@ -245,16 +245,16 @@ def _hard_physical_gate_mask(
 
 # Inclusive valid ranges for sa; None leaves that bound unrestricted.
 SA_VALID_RANGES = {
-    "I": {"lower": 53.0, "upper": None},
+    "I": {"lower": 40.0, "upper": None},
     "Tano_in": {"lower": None, "upper": None},
     "RHano_in": {"lower": None, "upper": None},
     "Pano_in": {"lower": None, "upper": None},
     "STC_ano": {"lower": None, "upper": None},
     "XH2_dry": {"lower": None, "upper": None},
     "Tcat_in": {"lower": None, "upper": None},
-    "RHcat_in": {"lower": None, "upper": None},
+    "RHcat_in": {"lower": 0.05, "upper": None},
     "Pcat_in": {"lower": None, "upper": None},
-    "STC_cat": {"lower": None, "upper": None},
+    "STC_cat": {"lower": 1.0, "upper": None},
     "TCL_in": {"lower": None, "upper": None},
     "FR_CL": {"lower": None, "upper": None}
 }
