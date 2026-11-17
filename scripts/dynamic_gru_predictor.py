@@ -252,9 +252,9 @@ SA_VALID_RANGES = {
     "STC_ano": {"lower": None, "upper": None},
     "XH2_dry": {"lower": None, "upper": None},
     "Tcat_in": {"lower": None, "upper": None},
-    "RHcat_in": {"lower": 0.05, "upper": None},
+    "RHcat_in": {"lower": None, "upper": None},
     "Pcat_in": {"lower": None, "upper": None},
-    "STC_cat": {"lower": 1.0, "upper": None},
+    "STC_cat": {"lower": None, "upper": None},
     "TCL_in": {"lower": None, "upper": None},
     "FR_CL": {"lower": None, "upper": None}
 }
